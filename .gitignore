@@ -1,0 +1,43 @@
+# ignore all WordPress folders
+wp-admin
+wp-includes
+wp-content/plugins/*
+wp-content/themes/*
+wp-content/uploads
+wp-content/cache
+wp-content/index.php
+
+# ignore all files in root
+/*.*
+
+# npm e composer
+node_modules
+.cache
+/vendor
+
+# ignore log files and databases
+.phpintel
+.htaccess
+.DS_Store
+*.log
+*.sql
+*.sqlite
+*.zip
+*.tgz
+*.gz
+*.tar
+*.tar.gz
+*.lock
+
+# files to keep
+!.gitignore
+!README.md
+!composer.json
+composer.lock
+
+# themes to keep
+# Uncomment to keep these theme
+
+
+# plugins to keep
+
